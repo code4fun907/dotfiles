@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/code4fun/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -118,6 +118,6 @@ alias ezrc="nvim ~/.zshrc"
 alias eac="nvim ~/.config/alacritty/alacritty.yml"
 
 
-if [ -e /home/code4fun/.nix-profile/etc/profile.d/nix.sh ]; then . /home/code4fun/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 . $HOME/.asdf/asdf.sh
-[ -f "/home/code4fun/.ghcup/env" ] && source "/home/code4fun/.ghcup/env" # ghcup-env
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env" # ghcup-env
