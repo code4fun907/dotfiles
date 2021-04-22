@@ -111,11 +111,11 @@ export PATH=$PATH:/usr/local/go/bin
 export JAVA_HOME=/usr/java/oracle/jdk-16
 export PATH=$PATH:$JAVA_HOME/bin
 
-alias evrc="nvim ~/.config/nvim/init.vim"
-alias ei3c="nvim ~/.config/i3/config"
-alias gc="cd ~/code"
-alias ezrc="nvim ~/.zshrc"
-alias eac="nvim ~/.config/alacritty/alacritty.yml"
+alias evrc="nvim $HOME/dotfiles/nvim/init.vim"
+alias ei3c="nvim $HOME/dotfiles/i3/config"
+alias gc="cd $HOME/code"
+alias ezrc="nvim $HOME/dotfiles/.zshrc"
+alias eac="nvim $HOME/dotfiles/alacritty.yml"
 
 
 if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then . $HOME/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
