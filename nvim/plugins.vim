@@ -18,7 +18,6 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'jaredgorski/SpaceCamp'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ap/vim-css-color'
-Plug 'ryanoasis/vim-devicons'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Raimondi/delimitMate'
 Plug 'machakann/vim-highlightedyank'
