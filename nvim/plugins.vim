@@ -21,6 +21,7 @@ Plug 'ap/vim-css-color'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Raimondi/delimitMate'
 Plug 'machakann/vim-highlightedyank'
+Plug 'elixir-editors/vim-elixir'
 Plug 'mattn/emmet-vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
